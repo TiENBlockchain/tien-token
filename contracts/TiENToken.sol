@@ -8,8 +8,10 @@ import "../node_modules/openzeppelin-solidity/contracts/token/ERC20/ERC20Capped.
 import "../node_modules/openzeppelin-solidity/contracts/ownership/Ownable.sol";
 
 contract TiENToken is ERC20, ERC20Detailed, ERC20Pausable, Ownable, ERC20Burnable, ERC20Mintable, ERC20Capped{
-  constructor(string memory _name,string memory symbol,uint8 _decimals,uint256 _cap) 
-    ERC20Detailed(_name, _symbol, _decimals)
+  constructor(string memory _name,string memory _symbol,uint8 _decimals,uint256 _cap) 
+    
+    ERC20Detailed(_name,_symbol, _decimals)
+        
     ERC20Capped(_cap)
 
         public
