@@ -1,5 +1,5 @@
-const TiENToken = artifacts.require("TiENToken");
+const TiENToken = artifacts.require('TiENToken');
 
 module.exports = function(deployer) {
-  deployer.deploy(TiENToken,"Tien Token","TIEN",18,1000000000);
+  deployer.deploy(TiENToken, 'TiEN Token', 'TiEN', 18, 1000000000);
 };
