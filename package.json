@@ -1,34 +1,15 @@
 {
-  "name": "tien-token",
+  "name": "tientoken-erc",
   "version": "1.0.0",
-  "description": "ERC20 token to be sold on exchanges",
-  "main": "truffle-config.js",
-  "directories": {
-    "test": "test"
-  },
-  "dependencies": {
-    "truffle": "^5.1.8",
-    "truffle-security": "^1.6.2"
-  },
-  "devDependencies": {
-    "openzeppelin-solidity": "^2.4.0"
-  },
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/TiENBlockchain/tien-token.git"
-  },
-  "keywords": [
-    "tien",
-    "t8t",
-    "tienchain"
-  ],
-  "author": "Shikhar Dubey",
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/TiENBlockchain/tien-token/issues"
-  },
-  "homepage": "https://github.com/TiENBlockchain/tien-token#readme"
+  "dependencies": {
+    "@openzeppelin/contracts": "^2.4.0",
+    "openzeppelin-solidity": "^2.4.0"
+  }
 }
