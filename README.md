@@ -1,2 +1,2 @@
 # tien-token
-ERC20 TiEN token to be sold on exchanges
+ERC20 TiEN Token
